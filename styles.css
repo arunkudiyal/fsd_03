@@ -1,0 +1,67 @@
+/* selector {
+    property: value
+} */
+
+/* SELECTORS */
+
+/* Element Selector */
+/* Element < class < id */
+h2 {
+    color: blue;
+}
+
+/* #new-id {
+    color: yellow;
+} */
+
+.second-heading {
+    color: red;
+}
+
+/* h2 {
+    color: green;
+} */
+
+/* Identifier Selectors - id, class */
+/* #new-id {
+    color: navy;
+}
+
+.second-heading {
+    color: yellow;
+} */
+
+/* Pseudo Selectors - Natural action OR Relationship */
+.second-heading:hover {
+    color: blue;
+}
+
+.list-item:first-child {
+    color: brown;
+}
+
+.list-item:last-child {
+    color: yellow
+}
+
+.list-item:nth-child(3) {
+    color: navy;
+}
+
+/* Attribute Selctors */
+
+h2[class="second-heading"] {
+    color: green;
+}
+
+/* ^ -> Starts with
+$ - Ends with
+* - Contain sanywhere in the attribute */
+
+img[src$=".jpeg"] {
+    border: 10px solid red;
+}
+
+img[src*="img-1"] {
+    border: 10px solid black;
+}
