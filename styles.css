@@ -1,67 +1,35 @@
-/* selector {
-    property: value
-} */
+/* COLORS */
 
-/* SELECTORS */
+body {
+    /* background: linear-gradient(to bottom, rgba(15, 78, 212, 1), rgba(15, 78, 212, 0.3)); */
 
-/* Element Selector */
-/* Element < class < id */
-h2 {
-    color: blue;
-}
-
-/* #new-id {
-    color: yellow;
-} */
-
-.second-heading {
-    color: red;
-}
-
-/* h2 {
-    color: green;
-} */
-
-/* Identifier Selectors - id, class */
-/* #new-id {
-    color: navy;
+    /* background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80'); */
 }
 
 .second-heading {
-    color: yellow;
-} */
+    /* color: blue; */
+    /* color: #597ecf */
+    /* RGB - (RED, Green, Blue) */
 
-/* Pseudo Selectors - Natural action OR Relationship */
-.second-heading:hover {
-    color: blue;
+    color: rgb(174, 196, 242)
+
 }
 
-.list-item:first-child {
-    color: brown;
-}
+/* GRADIENTS */
 
-.list-item:last-child {
-    color: yellow
-}
+/* LINER GRADIENT */
+.container-one {
+    height: 300px;
+    width: 70%;
 
-.list-item:nth-child(3) {
-    color: navy;
-}
+    /* liner-gradient(direction, listOfColors) */
+    /* background: linear-gradient(to right, red, green, blue, yellow, white); */
+    /* background-color: red; */
 
-/* Attribute Selctors */
+    /* background: linear-gradient(to right, rgba(15, 78, 212, 1), rgba(15, 78, 212, 0.3)); */
 
-h2[class="second-heading"] {
-    color: green;
-}
-
-/* ^ -> Starts with
-$ - Ends with
-* - Contain sanywhere in the attribute */
-
-img[src$=".jpeg"] {
-    border: 10px solid red;
-}
-
-img[src*="img-1"] {
-    border: 10px solid black;
+    background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80');
+    background-color: red;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
