@@ -1,86 +1,234 @@
 <!DOCTYPE html>
- <html lang="en">
- <head>
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>CSS Cheatsheet</title>
-     <link rel="stylesheet" href="./styles.css">
- </head>
- <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-     <h1 class="second-heading">My Website</h1>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>Bootstrap Cheatsheet</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="page-header">Welcome to Bootstrap <small>By Arun Kudiyal</small> </h1>
 
-     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-     tempor incididunt ut labore et dolore magna aliqua.</p>
+        <!-- Paragraphs -->
+        <h4>Paragraphs : </h4> <br>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore expedita, et architecto cum eaque tenetur sit exercitationem eligendi. Aliquid at neque, doloremque sunt in eius.</p>
 
-     <h2 id="new-id" class="second-heading">About Me</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, consequuntur id corporis vel quas dolorum tempore, ex <mark>expedita earum</mark> laborum quia optio suscipit recusandae aut, minus iste architecto dignissimos ab odio fugit laboriosam sint! Facere porro obcaecati voluptatibus est voluptatem deleniti ipsum sint rem minus.</p>
 
-     <img src="./img/img-1.jpeg" alt="Image - 2">
+        <hr>
 
-     <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
-     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <h4>Alignments : </h4> <br>
 
-     <span>Lorem ipsum dolor sit amet</span>, consectetur adipisicing elit, sed do eiusmod
-     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-     consequat. 
+        <p class="text-left">Left Alignment</p>
+        <p class="text-center">Center Alignment</p>
+        <p class="text-right">Right Alignment</p>
 
-     Cillum dolore eu fugiat nulla , pariatur:
+        <hr>
 
-         <ul>
-             <li>Excepteur sint occaecat</li>
-             <ol class="list">
-                 <li class="list-item">My numbered list item</li>
-                 <li class="list-item">My numbered list item</li>
-                 <li class="list-item">My numbered list item</li>
-                 <li class="list-item">My numbered list item</li>
-                 <li class="list-item">My numbered list item</li>
-             </ol>
-         </ul>
-     </p>
+        <h4>Quotes : </h4> <br>
 
-     <h2 class="second-heading">Services</h2>
-         
-    <a href="http://www.google.com">Click here to go to Google</a>
+        <blockquote>
+            <p>An eye for an eye makes the whole world blind!</p>
+            <footer>Quote by : <i>Mahatma Gandhi</i> </footer>
+        </blockquote>
 
-     <table border="1">
-         <thead>
-             <tr>
-                 <td>Lorem</td>
-                 <td>Ipsum</td>
-                 <td>Dolor</td>
-             </tr>
-         </thead>
-         <tbody>
-             <tr>
-                 <td>Sit</td>
-                 <td>Amet</td>
-                 <td>Consectetur</td>
-             </tr>
-             <tr>
-                 <td>Adipisicing</td>
-                 <td>Elit</td>
-                 <td>Sed</td>
-             </tr>
+        <hr>
 
-         </tbody>
-     </table>
+        <h4>Lists : </h4>
 
-     <img src="./img/img-2.jpeg" alt="Image - 2">
+        <ul class="list-unstyled">
+            <li>List-Item</li>
+            <li>List-Item</li>
+            <li>List-Item</li>
+            <li>List-Item</li>
+            <li>List-Item</li>
+        </ul>
 
-     <div class="container-one"></div>
+        <!-- Nav-Bars -->
+        <ul class="list-inline">
+            <li><a href="#">List-Item</a></li>
+            <li><a href="#">List-Item</a></li>
+            <li><a href="#">List-Item</a></li>
+            <li><a href="#">List-Item</a></li>
+            <li><a href="#">List-Item</a></li>
+        </ul>
 
-     <div class="container-two"></div>
+        <hr>
 
-     <h2 class="second-heading">Contact Us</h2>
+        <h4>Contextual Classes : </h4> <br>
 
-     <form>
-         <input type="text">
-         <input type="email">
-         <textarea></textarea>
-         <button>Submit</button>	
-     </form>
- </body>
- </html>
+        <p class="text-primary">Paragrah 1</p>
+        <p class="text-success">Paragrah 2</p>
+        <p class="text-info">Paragrah 3</p>
+        <p class="text-warning">Paragrah 4</p>
+        <p class="text-danger">Paragrah 5</p>
+        <p class="text-muted">Paragrah 6</p>
+
+        <br>
+
+        <p class="bg-primary">Paragrah 1</p>
+        <p class="bg-success">Paragrah 2</p>
+        <p class="bg-info">Paragrah 3</p>
+        <p class="bg-warning">Paragrah 4</p>
+        <p class="bg-danger">Paragrah 5</p>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <h4>Buttons : </h4>
+
+        <button class="btn btn-primary">Button</button>
+        <a class="btn btn-danger" href="#">Link</a>
+        <input class="btn btn-success" type="submit" value="Submit">
+
+        <hr>
+
+        <h4>Button Size : </h4>
+
+        <button class="btn btn-primary btn-lg">Button</button>
+        <button class="btn btn-primary btn-sm">Button</button>
+        <button class="btn btn-primary btn-xs">Button</button>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <h4>Forms : </h4> <br>
+
+        <form action="#">
+
+            <div class="form-group">
+                <label>First Name : </label>
+                <input class="form-control" type="text">
+            </div>
+
+            <div class="form-group">
+                <label>Last Name : </label>
+                <input class="form-control" type="text">
+            </div>
+
+            <div class="form-group">
+                <label>Email : </label>
+                <input class="form-control" type="email">
+            </div>
+
+            <div class="form-group">
+                <label>Password : </label>
+                <input class="form-control" type="password">
+            </div>
+
+            <div class="form-group">
+                <label>Gender : </label>
+                <select class="form-control">
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Others</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label>Feedback : </label>
+                <textarea class="form-control"></textarea>
+            </div>
+
+            <div class="form-group">
+                <input type="checkbox"> I agree with the terms & conditions.
+            </div>
+
+            <input class="btn btn-success" type="submit">
+        </form>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <h4>Tables : </h4> <br>
+        <table class="table table-bordered table-hover table-condensed table-responsive">
+
+            <thead>
+                <th>S.No.</th>
+                <th>Emp. Name</th>
+                <th>Emp. Age</th>
+                <th>Emp. Email</th>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>1.</td>
+                    <td>Tim Cook</td>
+                    <td>60</td>
+                    <td>tim.cook@apple.com</td>
+                </tr>
+
+                <tr>
+                    <td>2.</td>
+                    <td>Creg</td>
+                    <td>45</td>
+                    <td>fedrigi.creg@apple.com</td>
+                </tr>
+
+                <tr>
+                    <td>3.</td>
+                    <td>John Ives</td>
+                    <td>50</td>
+                    <td>ives.john@apple.com</td>
+                </tr>
+
+                <tr>
+                    <td>4.</td>
+                    <td>John Adams</td>
+                    <td>35</td>
+                    <td>adams.john@apple.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <h3>Bootstrap Grids : </h3> <br>
+
+        <h4> 6 x 6 Grid : </h4> <br>
+        <div class="row">
+            <div class="col-md-6">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ad harum autem magnam vitae voluptatum optio consectetur ab vero sed, molestias dignissimos illo provident suscipit quod numquam sapiente! Porro iure placeat aspernatur, ratione eum eius dolor praesentium modi id, reiciendis, fugiat labore magnam. Quam officia temporibus suscipit veritatis animi atque aut quis placeat, corporis consequuntur laborum doloremque ducimus eaque reiciendis?</p>
+            </div>
+
+            <div class="col-md-6">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi rerum sequi doloribus. Dolore qui alias vero assumenda nemo! Ducimus nihil quo porro sequi iste voluptatem rerum doloremque. Consequuntur, veniam mollitia porro quos vero cumque dolorem deleniti quod maxime, veritatis non! Molestiae magni illum consequatur ea explicabo quod molestias dignissimos accusamus dolorem! Quod officiis distinctio consectetur repellat odio ut ea voluptatum.</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <h4>3 x 3 x 3 x 3 Grid : </h4> <br>
+        <div class="row">
+            <div class="col-md-3">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta fugiat, nulla id atque porro enim expedita repellat ut sapiente numquam quibusdam optio praesentium quia vel.</p>
+            </div>
+
+            <div class="col-md-3">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta fugiat, nulla id atque porro enim expedita repellat ut sapiente numquam quibusdam optio praesentium quia vel.</p>
+            </div>
+
+            <div class="col-md-3">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta fugiat, nulla id atque porro enim expedita repellat ut sapiente numquam quibusdam optio praesentium quia vel.</p>
+            </div>
+
+            <div class="col-md-3">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta fugiat, nulla id atque porro enim expedita repellat ut sapiente numquam quibusdam optio praesentium quia vel.</p>
+            </div>
+        </div>
+    </div>
+
+    <div style="height: 400px;"></div>
+
+</body>
+</html>
